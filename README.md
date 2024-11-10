@@ -81,16 +81,12 @@ buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 ```
-
-
-
-
-
 ## OUTPUT
-![Screenshot 2024-10-16 060406](https://github.com/user-attachments/assets/f62e9b82-2c35-4c58-8f5d-0453b9361031)
+![image](https://github.com/user-attachments/assets/e8a1b302-3a4c-49c8-a295-8eb9f354167d)
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
+//C Program that illustrate communication between two process using named pipes
 ```c
 #include <unistd.h>
 #include <stdlib.h>
@@ -103,15 +99,14 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 ```
-
-
-
-
 ## OUTPUT
-![Screenshot 2024-10-16 060642](https://github.com/user-attachments/assets/f7c18ecd-cb26-4e5f-b4b5-24e03eb58a27)
-![Screenshot 2024-10-16 060701](https://github.com/user-attachments/assets/c11f2cd2-afb3-450e-9771-44590bfa7779)
+![image](https://github.com/user-attachments/assets/83a9a469-ffbe-40f1-904e-087905fafdab)
 
-
+```
+$ ls -l /tmp/my_fifo
+```
+## OUTPUT 
+![image](https://github.com/user-attachments/assets/ab07e2ba-68dd-4bb5-99f8-1dd813bff2d6)
 
 # RESULT:
 The program is executed successfully.
